@@ -7,3 +7,4 @@ then
 echo "INSTALL with the ROOT user"
 else
 echo "You are a root user"
+fi
