@@ -8,3 +8,5 @@ echo "INSTALL with the ROOT user"
 else
 echo "You are a root user"
 fi
+
+yum install MySQL -y
