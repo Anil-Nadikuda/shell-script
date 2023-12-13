@@ -10,11 +10,11 @@ else
 echo "You are a root user"
 fi
 
-yum install MySQL -y
+yum install mysql -y
 
 if [ $? -ne 0 ]
 then
-echo "ERROR::Install od mysqlnot success"
+echo "ERROR::Install of mysql not success"
 else
 echo "install mysql success"
 fi
