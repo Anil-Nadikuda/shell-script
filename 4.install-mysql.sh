@@ -16,6 +16,7 @@ if [ $? -ne 0 ]
 then
 echo "ERROR::Install of mysql not success"
 else
+exit 12
 echo "SUCCESS::install mysql success"
 fi
 
