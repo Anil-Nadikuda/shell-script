@@ -8,10 +8,10 @@ N="\e[0m"
 VALIDATE(){
     if [ $1 -ne 0 ]
 then
-echo "ERROR::$2.... Failed"
+echo "$R ERROR::$2.... Failed $N"
 exit 12
 else
-echo "SUCCESS::$2.... Success"
+echo "$G SUCCESS::$2.... Success $N"
 fi
 }
 
