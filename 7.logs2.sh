@@ -1,13 +1,16 @@
 #!/bin/bash
 
 ID=$(id -u)
+R=\e[31m
+G=\e[32m
+N=\e[0m
 
 if [ $ID -ne 0 ]
 then
-    echo -e "\e[31m ERROR: Run command with root user"
+    echo -e "$R ERROR: Run command with root user $N"
 exit 1
 else
-    echo -e "\e[32m logged with root user"
+    echo -e "$G logged with root user $N"
 fi
 
 yum install mysql -y
